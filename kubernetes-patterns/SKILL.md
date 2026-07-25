@@ -1,19 +1,19 @@
 ---
-name: api-design
-description: "REST, versioning, pagination, filtering, errors — Hermes-native patterns adapted from ECC for Claude Code"
+name: kubernetes-patterns
+description: "K8s 1.28+, operators, Helm, Kustomize — Hermes-native patterns adapted from ECC for Claude Code"
 version: 1.0.0
 author: Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
   hermes:
-    tags: [hermes, api,design]
+    tags: [hermes, kubernetes,patterns]
     related_skills: [hcc-bundle]
 ---
 
-# api-design
+# kubernetes-patterns
 
-REST, versioning, pagination, filtering, errors
+K8s 1.28+, operators, Helm, Kustomize
 
 ## Prerequisites
 
@@ -22,24 +22,24 @@ REST, versioning, pagination, filtering, errors
 
 ## Core Patterns
 
-This skill provides Hermes-native patterns for **api-design**, adapted from the ECC (Everything Claude Code) ecosystem.
+This skill provides Hermes-native patterns for **kubernetes-patterns**, adapted from the ECC (Everything Claude Code) ecosystem.
 
 ### Quick Reference
 
 | Task | Command |
 |------|---------|
-| Get started | `hermes -s api-design "your task"` |
-| With TDD | `hermes -s tdd,api-design "build feature with tests"` |
-| Security review | `hermes -s security-review,api-design "audit implementation"` |
+| Get started | `hermes -s kubernetes-patterns "your task"` |
+| With TDD | `hermes -s tdd,kubernetes-patterns "build feature with tests"` |
+| Security review | `hermes -s security-review,kubernetes-patterns "audit implementation"` |
 
 ### Common Patterns
 
 ```bash
 # Example: Load skill and run task
-hermes -s api-design "Implement user authentication with JWT"
+hermes -s kubernetes-patterns "Implement user authentication with JWT"
 
 # Multi-skill: Combine with engineering practices
-hermes -s api-design,agentic-engineering,git-workflow "Build feature end-to-end"
+hermes -s kubernetes-patterns,agentic-engineering,git-workflow "Build feature end-to-end"
 ```
 
 ## Skill Composition

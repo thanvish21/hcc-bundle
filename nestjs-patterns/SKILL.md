@@ -1,19 +1,19 @@
 ---
-name: api-design
-description: "REST, versioning, pagination, filtering, errors — Hermes-native patterns adapted from ECC for Claude Code"
+name: nestjs-patterns
+description: "NestJS modules, guards, interceptors, microservices — Hermes-native patterns adapted from ECC for Claude Code"
 version: 1.0.0
 author: Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
   hermes:
-    tags: [hermes, api,design]
+    tags: [hermes, nestjs,patterns]
     related_skills: [hcc-bundle]
 ---
 
-# api-design
+# nestjs-patterns
 
-REST, versioning, pagination, filtering, errors
+NestJS modules, guards, interceptors, microservices
 
 ## Prerequisites
 
@@ -22,24 +22,24 @@ REST, versioning, pagination, filtering, errors
 
 ## Core Patterns
 
-This skill provides Hermes-native patterns for **api-design**, adapted from the ECC (Everything Claude Code) ecosystem.
+This skill provides Hermes-native patterns for **nestjs-patterns**, adapted from the ECC (Everything Claude Code) ecosystem.
 
 ### Quick Reference
 
 | Task | Command |
 |------|---------|
-| Get started | `hermes -s api-design "your task"` |
-| With TDD | `hermes -s tdd,api-design "build feature with tests"` |
-| Security review | `hermes -s security-review,api-design "audit implementation"` |
+| Get started | `hermes -s nestjs-patterns "your task"` |
+| With TDD | `hermes -s tdd,nestjs-patterns "build feature with tests"` |
+| Security review | `hermes -s security-review,nestjs-patterns "audit implementation"` |
 
 ### Common Patterns
 
 ```bash
 # Example: Load skill and run task
-hermes -s api-design "Implement user authentication with JWT"
+hermes -s nestjs-patterns "Implement user authentication with JWT"
 
 # Multi-skill: Combine with engineering practices
-hermes -s api-design,agentic-engineering,git-workflow "Build feature end-to-end"
+hermes -s nestjs-patterns,agentic-engineering,git-workflow "Build feature end-to-end"
 ```
 
 ## Skill Composition

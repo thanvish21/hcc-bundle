@@ -1,19 +1,19 @@
 ---
-name: api-design
-description: "REST, versioning, pagination, filtering, errors — Hermes-native patterns adapted from ECC for Claude Code"
+name: auth-patterns
+description: "OAuth2, OIDC, JWT, refresh tokens, PKCE — Hermes-native patterns adapted from ECC for Claude Code"
 version: 1.0.0
 author: Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
   hermes:
-    tags: [hermes, api,design]
+    tags: [hermes, auth,patterns]
     related_skills: [hcc-bundle]
 ---
 
-# api-design
+# auth-patterns
 
-REST, versioning, pagination, filtering, errors
+OAuth2, OIDC, JWT, refresh tokens, PKCE
 
 ## Prerequisites
 
@@ -22,24 +22,24 @@ REST, versioning, pagination, filtering, errors
 
 ## Core Patterns
 
-This skill provides Hermes-native patterns for **api-design**, adapted from the ECC (Everything Claude Code) ecosystem.
+This skill provides Hermes-native patterns for **auth-patterns**, adapted from the ECC (Everything Claude Code) ecosystem.
 
 ### Quick Reference
 
 | Task | Command |
 |------|---------|
-| Get started | `hermes -s api-design "your task"` |
-| With TDD | `hermes -s tdd,api-design "build feature with tests"` |
-| Security review | `hermes -s security-review,api-design "audit implementation"` |
+| Get started | `hermes -s auth-patterns "your task"` |
+| With TDD | `hermes -s tdd,auth-patterns "build feature with tests"` |
+| Security review | `hermes -s security-review,auth-patterns "audit implementation"` |
 
 ### Common Patterns
 
 ```bash
 # Example: Load skill and run task
-hermes -s api-design "Implement user authentication with JWT"
+hermes -s auth-patterns "Implement user authentication with JWT"
 
 # Multi-skill: Combine with engineering practices
-hermes -s api-design,agentic-engineering,git-workflow "Build feature end-to-end"
+hermes -s auth-patterns,agentic-engineering,git-workflow "Build feature end-to-end"
 ```
 
 ## Skill Composition

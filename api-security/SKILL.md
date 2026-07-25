@@ -1,19 +1,19 @@
 ---
-name: api-design
-description: "REST, versioning, pagination, filtering, errors — Hermes-native patterns adapted from ECC for Claude Code"
+name: api-security
+description: "Rate limiting, CORS, CSP, headers, validation — Hermes-native patterns adapted from ECC for Claude Code"
 version: 1.0.0
 author: Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
   hermes:
-    tags: [hermes, api,design]
+    tags: [hermes, api,security]
     related_skills: [hcc-bundle]
 ---
 
-# api-design
+# api-security
 
-REST, versioning, pagination, filtering, errors
+Rate limiting, CORS, CSP, headers, validation
 
 ## Prerequisites
 
@@ -22,24 +22,24 @@ REST, versioning, pagination, filtering, errors
 
 ## Core Patterns
 
-This skill provides Hermes-native patterns for **api-design**, adapted from the ECC (Everything Claude Code) ecosystem.
+This skill provides Hermes-native patterns for **api-security**, adapted from the ECC (Everything Claude Code) ecosystem.
 
 ### Quick Reference
 
 | Task | Command |
 |------|---------|
-| Get started | `hermes -s api-design "your task"` |
-| With TDD | `hermes -s tdd,api-design "build feature with tests"` |
-| Security review | `hermes -s security-review,api-design "audit implementation"` |
+| Get started | `hermes -s api-security "your task"` |
+| With TDD | `hermes -s tdd,api-security "build feature with tests"` |
+| Security review | `hermes -s security-review,api-security "audit implementation"` |
 
 ### Common Patterns
 
 ```bash
 # Example: Load skill and run task
-hermes -s api-design "Implement user authentication with JWT"
+hermes -s api-security "Implement user authentication with JWT"
 
 # Multi-skill: Combine with engineering practices
-hermes -s api-design,agentic-engineering,git-workflow "Build feature end-to-end"
+hermes -s api-security,agentic-engineering,git-workflow "Build feature end-to-end"
 ```
 
 ## Skill Composition
